@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.searchArea {
+  text-align: center;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px 10px;
+  width: 500px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.gallery {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 15px;
+}
